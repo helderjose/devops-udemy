@@ -31,11 +31,13 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
+			<!-- ip do meu notebook - tem tbm na .m2 do container -->
 			<url>http://10.0.0.121:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
+			<!-- ip do meu notebook - tem tbm na .m2 do container -->
 			<url>http://10.0.0.121:8081/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
